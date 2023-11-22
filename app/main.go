@@ -8,7 +8,7 @@ import (
 
 func main() {
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		fmt.Fprintf(w, "Hello From Go!!")
+		fmt.Fprintf(w, "Hello From Go 2!!")
 	})
 
 	fmt.Printf("Server is running on port 3000...")
